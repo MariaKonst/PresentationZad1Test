@@ -60,6 +60,6 @@ public class Presentation extends Document implements Cloneable{
     public void submit(boolean isSubmitted) {
         if(isSubmitted == true)
             System.out.println("The presentation made by " + this.getAuthor().getNameAuthor()+" is submitted.\n");
-        else System.out.println("The presentation made by"+this.getAuthor().getNameAuthor()+ "is NOT submitted.\n");
+        else System.out.println("The presentation made by "+this.getAuthor().getNameAuthor()+ " is NOT submitted.\n");
     }
 }
